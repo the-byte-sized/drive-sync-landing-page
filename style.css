@@ -1,4 +1,4 @@
-html {
+body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -47,6 +47,26 @@ nav .navbar-brand span {
     border-color: rgb(44, 44, 84);
 }
 
+section#features {
+    position: relative;
+}
+
+
+section#features::before {
+    content: "";
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    z-index: -1;
+    width: 69%;
+    height: 60%;
+    border-radius: 30px;
+    background-color: #151529;
+    -webkit-transform: skew(0deg,-15deg);
+    -ms-transform: skew(0deg,-15deg);
+    transform: skew(0deg,-15deg) translate(-50%,-50%);
+}
+
 section#features div.feature {
     height: 100vh;
 }
@@ -56,4 +76,18 @@ section#features div.feature {
     border: none;
     border-radius: 35px;
     height: 100%;
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: 700;
+    color:#6161E9;
+}
+
+.card-text {
+    font-weight: 300;
+}
+
+footer {
+    background-color: #151529;
 }
