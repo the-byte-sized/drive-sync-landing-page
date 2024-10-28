@@ -145,3 +145,12 @@ footer {
     justify-content: center;
     column-gap: 13px;
 }
+
+#features h2 {
+    font-weight: 900;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#FFDE21, #FFD32C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
