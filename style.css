@@ -34,6 +34,7 @@ nav .navbar-brand span {
 }
 
 #intro a {
+    color: white;
     background-color: #6161E9;
     border-color: #6161E9;
     border-radius: 50px;
@@ -96,11 +97,11 @@ footer {
     position: relative;
 }
 
-.card-holder:hover .card.-front {
+.card-holder.flip .card.-front {
     transform: rotateY(-0.5turn);
 }
 
-.card-holder:hover .card.-back {
+.card-holder.flip .card.-back {
     transform: rotateY(0turn);
 }
 
@@ -122,4 +123,21 @@ footer {
 
 .container {
     perspective: 1000px;
+}
+
+.btn {
+    --bs-btn-color: #6161E9;
+    --bs-btn-border-color: #6161E9;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-border-color: #6161E9;
+    --bs-btn-active-bg: #6161E9;
+    --bs-btn-hover-bg: #6161E9;
+}
+
+.fa-fw {
+    transform: translateX(-21px);
+}
+
+.show-less-details {
+    cursor: pointer;
 }
