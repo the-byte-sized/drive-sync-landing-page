@@ -1,138 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="/style.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
 
     <title>DriveSync</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <div id="intro" class="container-fluid text-center d-flex flex-column align-items-center justify-content-center text-white">
-            <img src="/img/logo-full.png" alt="Logo" width="240" height="52" class="d-inline-block align-text-top">
+      <div
+        id="intro"
+        class="container-fluid text-center d-flex flex-column align-items-center justify-content-center text-white"
+      >
+        <img
+          src="/img/logo-full.png"
+          alt="DryveSync Logo"
+          class="d-inline-block align-text-top mb-5"
+        />
 
-            <h1>
-                            Con DriveSync, uniamo tecnologia all'avanguardia e connessioni potenziate per guidare la rivoluzione nell'NCC.
-                        </h1>
+        <h1 class="w-50 fw-bold">
+          Con DriveSync, uniamo tecnologia all'avanguardia e connessioni
+          potenziate per guidare la rivoluzione nell'NCC.
+        </h1>
 
-            <a href="/#features" class="btn btn-primary btn-lg mt-5 hvr-shrink" tabindex="-1" role="button">Partecipa anche tu alla rivoluzione</a>
+        <a
+          href="/#features"
+          class="btn btn-primary btn-lg mt-5 hvr-shrink d-inline-flex align-items-center gap-3"
+          tabindex="-1"
+          role="button"
+        >
+            Partecipa anche tu alla rivoluzione <i class="fa-solid fa-arrow-right ml-2"></i>
+        </a>
+      </div>
+
+      <section id="features" class="container-fluid text-center p-0">
+        <div
+          id="anagrafiche"
+          class="d-flex align-items-center justify-content-center w-100"
+        >
+          <div class="w-50 p-5">
+            <h2>Gestione Anagrafiche</h2>
+          </div>
+
+          <div class="w-50 p-5">
+            <p>
+              Gestione completa delle anagrafiche per Clienti, Fornitori,
+              Autisti, Guide e Veicoli. Puoi creare tariffari personalizzati per
+              ogni cliente oppure calcolare le tariffe tramite Google Maps,
+              gestire le scadenze dei veicoli ed essere avvisato prima di ogni
+              scadenza.
+            </p>
+          </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <span>
-                                    DriveSync
-                                </span>
-                </a>
+        <div
+          id="servizi"
+          class="d-flex flex-row-reverse align-items-center justify-content-center w-100"
+        >
+          <div class="w-50 p-5">
+            <h2>Gestione servizi</h2>
+          </div>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <div class="w-50 p-5">
+            <p>
+              La gestione dei servizi è veloce grazie alla possibilità di
+              assegnare Autisti, Fornitori e Veicoli direttamente
+              dall’interfaccia e di inviare il planning con un click a chi lo
+              deve eseguire. Condivisione dei servizi via WhatsApp, Telegram ed
+              Email (con tracciamento apertura e lettura).
+            </p>
+          </div>
+        </div>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Features
-                                            </a>
+        <div
+          id="accesso-clienti"
+          class="d-flex align-items-center justify-content-center w-100"
+        >
+          <div class="w-50 p-5">
+            <h2>Accesso per i Clienti</h2>
+          </div>
 
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Action</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </li>
-                            </ul>
-                        </li>
+          <div class="w-50 p-5">
+            <p>
+              I tuoi Clienti hanno un area riservata dove possono visualizzare
+              l’elenco e lo stato dei servizi richiesti, visualizzare e
+              scaricare le loro fatture e richiedere un nuovo servizio evitando
+              inutili scambi di email o chiamate!
+            </p>
+          </div>
+        </div>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Use cases
-                                            </a>
+        <div
+          id="cloud-software"
+          class="d-flex flex-row-reverse align-items-center justify-content-center w-100"
+        >
+          <div class="w-50 p-5">
+            <h2>Software in Cloud</h2>
+          </div>
 
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="#">Action</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </li>
-                            </ul>
-                        </li>
+          <div class="w-50 p-5">
+            <p>
+              Accedi ovunque e con qualsiasi dispositivo! Pc,Tablet, Smartphone
+            </p>
+          </div>
+        </div>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
+        <div
+          id="app"
+          class="d-flex align-items-center justify-content-center w-100"
+        >
+          <div class="w-50 p-5">
+            <h2>APP iOS, Android, Huawei AppGallery</h2>
+          </div>
 
-                        <button type="button" class="btn btn-primary">Request a demo</button>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <section id="features" class="container text-center">
-            <div class="row row-cols-2">
-                <div class="col">
-                    <h2>Plan your day</h2>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officia natus aperiam dolores ipsa numquam tempore excepturi inventore consequatur cupiditate.</p>
-                </div>
-
-                <div class="col">
-                    <h2>Calendar Overview</h2>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptates neque et facilis non ipsa magnam repudiandae sed totam minus.</p>
-                </div>
-
-                <div class="col">
-                    <h2></h2>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eius tempora cupiditate debitis dolores, eum magni labore dolore ducimus quis?</p>
-                </div>
-
-                <div class="col">
-                    <h2></h2>
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati quibusdam natus delectus voluptas ducimus sapiente quae in fugit aspernatur quo.</p>
-                </div>
-            </div>
-        </section>
+          <div class="w-50 p-5">
+            <p>
+              Hai a disposizione delle APP per la gestione della tua azienda e
+              per i tuoi autisti e fornitori, con le notifiche push sei sempre
+              al corrente di ogni cambiamento (inizio e fine servizio,
+              inserimento dei un servizio da parte di un cliente, accettazione
+              di un servizio da parte di un fornitore, …).
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright © The Byte-sized 2024</span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright © The Byte-sized 2024</span>
+          </div>
 
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons"></ul>
-                </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons"></ul>
+          </div>
 
-                <div class="col-md-4">
-                    <!-- <ul class="list-inline quicklinks"> <li><a href="#">Privacy Policy</a> </li> <li><a href="#">Terms of Use</a> </li> </ul> -->
-                </div>
-            </div>
+          <div class="col-md-4">
+            <!-- <ul class="list-inline quicklinks"> <li><a href="#">Privacy Policy</a> </li> <li><a href="#">Terms of Use</a> </li> </ul> -->
+          </div>
         </div>
+      </div>
     </footer>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8d9a2015eb8d63b3","version":"2024.10.4","r":1,"token":"d058055acc074c518efb360cd3744305","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
-</body>
+  </body>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="/index.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+    integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/index.js"></script>
 </html>
