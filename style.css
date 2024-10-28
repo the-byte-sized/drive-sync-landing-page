@@ -62,9 +62,9 @@ section#features::before {
     height: 60%;
     border-radius: 30px;
     background-color: #151529;
-    -webkit-transform: skew(0deg,-15deg);
-    -ms-transform: skew(0deg,-15deg);
-    transform: skew(0deg,-15deg) translate(-50%,-50%);
+    -webkit-transform: skew(0deg, -15deg);
+    -ms-transform: skew(0deg, -15deg);
+    transform: skew(0deg, -15deg) translate(-50%, -50%);
 }
 
 section#features div.feature {
@@ -81,7 +81,7 @@ section#features div.feature {
 .card-title {
     font-size: 28px;
     font-weight: 700;
-    color:#6161E9;
+    color: #6161E9;
 }
 
 .card-text {
@@ -90,4 +90,36 @@ section#features div.feature {
 
 footer {
     background-color: #151529;
+}
+
+.card-holder {
+    position: relative;
+}
+
+.card-holder:hover .card.-front {
+    transform: rotateY(-0.5turn);
+}
+
+.card-holder:hover .card.-back {
+    transform: rotateY(0turn);
+}
+
+.card {
+    transition: transform 1s ease;
+    backface-visibility: hidden;
+}
+
+.-back {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.-flipped {
+    transform: rotateY(0.5turn);
+}
+
+.container {
+    perspective: 1000px;
 }
