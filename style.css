@@ -46,3 +46,7 @@ nav .navbar-brand span {
     background-color: rgb(44, 44, 84);
     border-color: rgb(44, 44, 84);
 }
+
+section#features div {
+    height: 50vh;
+}
