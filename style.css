@@ -147,6 +147,10 @@ footer {
     column-gap: 13px;
 }
 
+#features {
+    background-color: #6161E9;
+}
+
 #features h2 {
     font-weight: 900;
     font-size: 72px;
