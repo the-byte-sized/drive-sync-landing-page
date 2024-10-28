@@ -47,6 +47,12 @@ nav .navbar-brand span {
     border-color: rgb(44, 44, 84);
 }
 
-section#features div {
-    height: 50vh;
+section#features div.feature {
+    height: 100vh;
+}
+
+.card {
+    box-shadow: 0 24px 44px 0 rgba(20, 20, 43, .04);
+    border: none;
+    border-radius: 35px;
 }
