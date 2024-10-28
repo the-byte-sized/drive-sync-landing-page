@@ -3,10 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const showLessDetailsBtn = document.querySelectorAll('.show-less-details');
 
     [...showDetailsBtn, ...showLessDetailsBtn].forEach((button) => {
-        console.log(button);
-        
         button.addEventListener('click', ({target}) => {
-            console.log(target);
             target.closest('.card-holder').classList.toggle('flip');
         })
     })
