@@ -1,7 +1,12 @@
+#contact {
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+
 }
 
 nav {
@@ -180,4 +185,18 @@ section#contact button {
     padding: 18px 25px;
     font-size: x-large;
     transition: all .25s ease-in-out;
+}
+
+#laptop-front {
+    top: 52%;
+    transform: translateY(-50%);
+}
+
+#tablet-front {
+    transform: scale(0.9) translateY(-50%);
+    top: 50%;
+}
+
+#phone-left {
+    transform: scale(0.3) translateX(-800px) translateY(1200px);
 }
