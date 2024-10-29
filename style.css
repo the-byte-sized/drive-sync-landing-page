@@ -176,6 +176,8 @@ section#contact {
     height: 550px;
     background-image: url("/img/contact-section-background.svg");
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section#contact h2 {
