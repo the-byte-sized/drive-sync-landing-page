@@ -166,8 +166,9 @@ footer {
 }
 
 section#contact {
-    height: 45vh;
+    height: 550px;
     background-image: url("/img/contact-section-background.svg");
+    overflow: hidden;
 }
 
 section#contact h2 {
@@ -175,6 +176,7 @@ section#contact h2 {
     font-weight: 700;
     font-size: xxx-large;
     text-align: center;
+    z-index: 1;
 }
 
 section#contact button {
@@ -185,18 +187,47 @@ section#contact button {
     padding: 18px 25px;
     font-size: x-large;
     transition: all .25s ease-in-out;
+    z-index: 1;
 }
 
 #laptop-front {
-    top: 52%;
-    transform: translateY(-50%);
+    bottom: 0px;
+    width: 800px;
+    left: -200px;
+    filter: drop-shadow(0px 15px 1px rgba(0, 0, 0, .25));
+    padding-bottom: 15px;
 }
 
 #tablet-front {
-    transform: scale(0.9) translateY(-50%);
-    top: 50%;
+    width: 600px;
+    bottom: 40px;
+    right: -150px;
+    filter: drop-shadow(0px 15px 1px rgba(0, 0, 0, .25));
+    padding-bottom: 15px;
 }
 
 #phone-left {
-    transform: scale(0.3) translateX(-800px) translateY(1200px);
+    width: 175px;
+    bottom: 0;
+    right: 350px;
+    filter: drop-shadow(0px 15px 1px rgba(0, 0, 0, .25));
+    padding-bottom: 15px;
+}
+
+@media(max-width: 1601px) {
+    #laptop-front {
+        left: -350px;
+        width: 700px;
+    }
+    
+    #phone-tablet-wrapper {
+        left: 200px;
+    }
+}
+
+@media(max-width: 1367px) {
+    #laptop-front {
+        left: -360px;
+        width: 680px;
+    }
 }
