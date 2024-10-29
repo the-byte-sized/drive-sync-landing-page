@@ -48,15 +48,15 @@ nav .navbar-brand span {
     border-color: rgb(44, 44, 84);
 }
 
-section#features {
+section#features .container {
     position: relative;
 }
 
 
-section#features::before {
+section#features .container::before {
     content: "";
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     z-index: -1;
     width: 69%;
