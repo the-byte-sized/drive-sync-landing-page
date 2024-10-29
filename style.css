@@ -35,8 +35,8 @@ nav .navbar-brand span {
 
 #intro a {
     color: white;
-    background-color: #6161E9;
-    border-color: #6161E9;
+    background-color: #2e1e73;
+    border-color: #2e1e73;
     border-radius: 50px;
     padding: 18px 25px;
     font-size: x-large;
@@ -82,7 +82,7 @@ section#features div.feature {
 .card-title {
     font-size: 28px;
     font-weight: 700;
-    color: #6161E9;
+    color: #2e1e73;
 }
 
 .card-text {
@@ -95,7 +95,7 @@ footer {
 
 .card-holder {
     position: relative;
-    filter: drop-shadow(0px 3px 6px rgba(0,0,0, .25));
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .25));
 }
 
 .card-holder.flip .card.-front {
@@ -127,12 +127,12 @@ footer {
 }
 
 .btn {
-    --bs-btn-color: #6161E9;
-    --bs-btn-border-color: #6161E9;
+    --bs-btn-color: #2e1e73;
+    --bs-btn-border-color: #2e1e73;
     --bs-btn-hover-color: white;
-    --bs-btn-hover-border-color: #6161E9;
-    --bs-btn-active-bg: #6161E9;
-    --bs-btn-hover-bg: #6161E9;
+    --bs-btn-hover-border-color: #2e1e73;
+    --bs-btn-active-bg: #2e1e73;
+    --bs-btn-hover-bg: #2e1e73;
 }
 
 .fa-fw {
@@ -148,14 +148,36 @@ footer {
 }
 
 #features {
-    background-color: #6161E9;
+    background-color: #2e1e73;
 }
 
 #features h2 {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 72px;
     background: -webkit-linear-gradient(#FFDE21, #FFD32C);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+section#contact {
+    height: 45vh;
+    background-image: url("/img/contact-section-background.svg");
+}
+
+section#contact h2 {
+    color: #e14e25;
+    font-weight: 700;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+section#contact button {
+    color: white;
+    background-color: #e14e25;
+    border-color: #e14e25;
+    border-radius: 50px;
+    padding: 18px 25px;
+    font-size: x-large;
+    transition: all .25s ease-in-out;
 }
