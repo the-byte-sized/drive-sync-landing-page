@@ -238,3 +238,16 @@ section#contact button {
         width: 680px;
     }
 }
+
+.hvr-ripple-out:before {
+    border: #e14e25 solid 6px;
+    border-radius: 50px;
+}
+
+#contactFormModal .modal-body {
+    background-color: #3d268c;
+}
+
+#contactFormModal .modal-header {
+    border: none;
+}
