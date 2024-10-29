@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    AOS.init();
+    
     const showDetailsBtn = document.querySelectorAll('button.btn.show-details');
     const showLessDetailsBtn = document.querySelectorAll('.show-less-details');
 
