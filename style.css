@@ -35,7 +35,7 @@ nav .navbar-brand span {
     background-image: url('https://images.pexels.com/photos/7594130/pexels-photo-7594130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-attachment: fixed;
     background-position: center;
-    height: 100vh;
+    height: 100dvh;
 }
 
 @media(min-width: 1600px) {
@@ -81,7 +81,7 @@ section#features .container::before {
 }
 
 section#features div.feature {
-    height: 100vh;
+    height: 100dvh;
 }
 
 .card {
